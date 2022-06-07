@@ -2,7 +2,6 @@ id: symantec-epm-login
 
 info:
   name: Symantec Endpoint Protection Manager
-  author: princechaddha
   severity: info
   reference:
     - https://www.shodan.io/search?query=http.title%3A%22Symantec+Endpoint+Protection+Manager%22
@@ -13,7 +12,6 @@ requests:
     path:
       - '{{BaseURL}}'
 
-    matchers-condition: and
     matchers:
       - type: word
         words:
